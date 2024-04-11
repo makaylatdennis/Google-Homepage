@@ -10,7 +10,8 @@ html {
   left: 40%;
 }
 
-.navbar{
+/**/
+.navbar {
   display: flex;
   justify-content: space-between;
 }
@@ -18,39 +19,39 @@ html {
 
 
 li {
-list-style-type: none;
+  list-style-type: none;
   font-family: 'Jost', sans-serif;
-  
-  
+
+
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-.left-nav li{
+.left-nav li {
   padding: 15px;
-  
+
 }
 
-.left-nav{
+.left-nav {
   display: flex;
 }
 
 
 
-.right-nav li{
- padding: 15px;
-  
-  
+.right-nav li {
+  padding: 15px;
+
+
 }
 
-.right-nav{
+.right-nav {
   display: flex;
   justify-content: flex-end;
-  
-  
+
+
 }
 
 #grid {
@@ -59,13 +60,13 @@ a{
   top: 0px;
 }
 
-#profile{
+#profile {
   width: 27px;
   height: 27px;
   top: 0px;
 }
 
-#searchbar{
+#searchbar {
   width: 90%;
   height: 25px;
   border-radius: 30px;
@@ -78,94 +79,102 @@ a{
 }
 
 
-.searchbar:focus{
+.searchbar:focus {
   outline: none;
 }
+
 /* focus is used to modify appearance of outline when searbar is selected   */
 
 
-.searchContainer{
+.searchContainer {
   margin-top: 2%;
- Width:35% ;
+  Width: 35%;
   height: 35px;
   vertical-align: right;
-   border: 1px solid #dfe1e5;
+  border: 1px solid #dfe1e5;
   border-radius: 30px;
   display: flex;
   align-items: center;
- 
+
 }
+
 /* border is placed around both searchbar and search icon when styling search_container */
 
-.content{
+.content {
   width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top:12%;
+  margin-top: 12%;
 }
+
 /*used to center logo and search bar  */
 
-.buttons{
+.buttons {
   display: flex;
   justify-content: center;
   margin-top: 2%;
 }
+
 /*container  */
 
-button{
+button {
   border-radius: 2px;
   background-color: ghostwhite;
   border: none;
   padding: 10px;
   margin-inline: 3px;
 }
+
 /*actual buttons  */
 
 
-.search-icon{
+.search-icon {
   width: 18px;
-  height: 18px ;
+  height: 18px;
   padding-left: 5%;
-  
-  
+
+
 }
 
 
 
-.bottom{
+.bottom {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 50px;
   background-color: #f2f2f2;
 }
+
 /* styling applied to container  */
 
 
 
 
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 45px; 
+  height: 45px;
   position: absolute;
   bottom: 0%;
   left: 0;
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
 }
+
 /*style applied to unordered list as a whole  */
 
 
-.footer1 li{
-padding: 0px 15px 0 15px;
+.footer1 li {
+  padding: 0px 15px 0 15px;
 
 }
+
 /*styiling for each individual list item  */
 
-.footer1{
+.footer1 {
   display: flex;
   justify-content: flex-start;
   margin-left: 5%;
@@ -181,14 +190,14 @@ padding: 0px 15px 0 15px;
   margin-top: 1%;
 }
 
-.footer3 li{
-padding: 0 15px 0 15px;
+.footer3 li {
+  padding: 0 15px 0 15px;
 }
 
 
 
 
-.footer3{
+.footer3 {
   display: flex;
   justify-content: flex-end;
   margin-right: 5%;
@@ -196,12 +205,12 @@ padding: 0 15px 0 15px;
 }
 
 
-#search:hover{
+#search:hover {
   cursor: pointer;
   background-color: #f8f9fa;
 }
 
-#lucky:hover{
+#lucky:hover {
   cursor: pointer;
   background-color: #f8f9fa;
 }
